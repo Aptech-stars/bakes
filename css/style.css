@@ -1,0 +1,81 @@
+
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.7;
+    color:var(body);
+}
+
+h1,h2,h3,h4,h5,
+.display-4 {
+     color:rgb(206, 19, 19)
+}
+
+.navbar .logo {
+    width: 1500px;
+    background-color: rgba(255, 255, 255, 0.925);
+    padding: 3px;
+    float: inline-start;
+
+}
+
+.navbar .navlink {
+    font-size:medium;
+    font-weight: 600;
+    padding: 5px;;
+}
+
+.hero::after {
+    content:"";
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(221, 177, 199, 0.8);
+    z-index: -1;
+
+}
+
+section {
+    padding-top:120px;
+    padding-bottom:120px;
+
+}
+
+.card-effect{
+    box-shadow:;
+    background-color: #ffff;
+    padding:25px;
+    transition: 0.35s ease;
+    border-radius: 10%;
+}
+
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+ #footer{
+    width: 100%;
+    background-color: rgba(241, 153, 197, 0.884);
+    margin-top: 100px;
+ }
+ 
+ #footer h1{
+color: rgb(219, 52, 52);
+padding-top: 30px;
+ }
+ 
+#footer p{
+    color: white
+}
+
+.icons {
+    color: white;
+}
+
+.copyright{
+    color: white;
+margin-top: 20px;
+}
